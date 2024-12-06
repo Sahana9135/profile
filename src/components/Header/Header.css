@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(17, 6, 44, 0.7), rgba(0,0,0,0.8),  rgba(0,0,0,0.7),rgba(17, 6, 44, 0.8)) ,url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.header > h1{
+  font-size: 80px;
+  color: azure;
+}
+.header > h3{
+  color: rgb(88, 122, 122);
+  font-size: 30px;
+}
+.image{
+  position: relative;
+  background-color: #f0f0f0;
+}
+.image > img{
+  position: absolute;
+  border-radius: 50%;
+  height: 280px;
+  border: 10px solid whitesmoke;
+  left: 40vw;
+  right: 40vw;
+  bottom: -30vh;
+}
