@@ -1,14 +1,17 @@
-:root {
-  --background: #ffffff;
-  --text-color: #000000;
-}
-
-.app {
-  font-family: Arial, sans-serif;
-  transition: background 0.3s, color 0.3s;
-}
 
 *{
   margin: 0%;
   padding: 0%;
+}
+
+.container{
+  max-width: 1300px !important;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (max-width:1300px){
+  .container{
+    padding: 0 1.5rem;
+  }
 }
