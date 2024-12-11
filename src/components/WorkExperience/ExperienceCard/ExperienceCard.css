@@ -1,0 +1,27 @@
+.work-experience-card{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin: 1rem 1rem;
+}
+
+.work-experience-card h6{
+    display: inline-block;
+    font-size: 1.05rem;
+    font-weight: 500;
+    background: rgba(103, 81, 185, 0.5);
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.work-experience-card ul li{
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+    position: relative;
+    line-height: 1.5;
+}

@@ -53,3 +53,22 @@ export const SKILLS = [
         ],
     },
 ]
+
+export const WORK_EXPERIENCE = [
+    {
+        title : "Certified Course",
+        responsibilities : "Certified in Full-Stack Web Development from CSC after completing a 6-month intensive program, demonstrating high proficiency in both front-end and back-end technologies.",
+    },
+    {
+        title : "TN Skills",
+        responsibilities : "Achieved First Level Qualification and participated in the Second Level of Web Development, these can showcasing strong foundational skills and knowledge through TN Skills.",
+    },
+    {
+        title : "Training Program",
+        responsibilities : "Completed an intensive 15-day Full-Stack Web Development training at Vyoobam Tech, And gaining practical experience in modern web technologies and development practices.",
+    },
+    {
+        title : "Blogging Platform",
+        responsibilities : "Developing an interactive and dynamic front-end blogging platform as a project for the Vyoobam Tech training program ,focusing on modern web design and user engagement features.",
+    },
+]
