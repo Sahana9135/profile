@@ -18,7 +18,7 @@ function WorkExperience() {
         arrows: false,
         responsive: [
             {
-                breakpoint: 769,
+                breakpoint: 750,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -27,6 +27,12 @@ function WorkExperience() {
         ],
     }
 
+    const slideRight = () => {
+        sliderRef.current.slickNext();
+    };
+    const slideLeft = () => {
+        sliderRef.current.slickPrev();
+    };
 
     return (
         <>
@@ -34,12 +40,12 @@ function WorkExperience() {
                 <h5>Achievements</h5>
 
                 <div className="experience-content">
-                    <div className="arrow-right">
-                        <span className='material-symbols-outlined'><i class="fa-solid fa-less-than fa-xs"></i>  </span>
+                    <div className="arrow-right" onClick={slideRight}>
+                        <span className='material-symbols-outlined'><i class="fa-solid fa-greater-than fa-xs"></i>  </span>
                     </div>
 
-                    <div className="arrow-left">
-                        <span className='material-symbols-outlined'> <i class="fa-solid fa-greater-than fa-xs"></i> </span>
+                    <div className="arrow-left" onClick={slideLeft}>
+                        <span className='material-symbols-outlined'> <i class="fa-solid fa-less-than fa-xs"></i> </span>
                     </div>
                 </div>
 

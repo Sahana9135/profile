@@ -32,8 +32,16 @@
     font-weight: 500;
 }
 .arrow-left {
-    left: -2rem;
+    left: -0.6rem;
 }
 .arrow-right {
-    right: -2rem;
+    right: -0.6rem;
+}
+
+@media (max-width: 768px) {
+    .experience-container h5{
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
 }
